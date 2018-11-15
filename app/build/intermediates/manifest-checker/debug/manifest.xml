@@ -29,6 +29,10 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.thomasholler.project_a.AddExpense" />
+        <activity
+            android:name="com.example.thomasholler.project_a.Sign_in"
+            android:exported="true" />
+        <activity android:name="com.example.thomasholler.project_a.CreateAccount" />
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"

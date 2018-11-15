@@ -1018,8 +1018,11 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable dollar
+drawable emailicon
 drawable gradient
 drawable gradient2
+drawable gradient3
+drawable greenbackground1
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_mtrl_chip_checked_black
@@ -1048,8 +1051,11 @@ drawable round_local_bar_black_36dp
 drawable round_local_dining_black_36dp
 drawable round_local_grocery_store_black_36dp
 drawable round_store_mall_directory_black_36dp
+drawable signin_button_roundedcorners
+drawable signin_roundedcorners
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable usericon
 id ALT
 id CTRL
 id FUNCTION
@@ -1239,6 +1245,7 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id signUp
 id smallLabel
 id snackbar_action
 id snackbar_text
@@ -1349,7 +1356,9 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_add_expense
+layout activity_create_account
 layout activity_main
+layout activity_sign_in
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
