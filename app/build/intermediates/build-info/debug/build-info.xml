@@ -6,7 +6,7 @@
     density="560dpi"
     format="10"
     plugin-version="3.2.1"
-    timestamp="1542263784177"
+    timestamp="1542264607295"
     token="-8494881758087753594"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -124,7 +124,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1542263784177"
+        timestamp="1542264607295"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="D:\Program\PoorNoMore-V.2\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"

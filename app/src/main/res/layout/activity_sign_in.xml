@@ -24,7 +24,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Poor No More"
-                android:textSize="40dp"
+                android:textSize="40sp"
                 android:textColor="#ffffff"
                 android:layout_marginTop="100dp"/>
 
@@ -72,13 +72,14 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_marginTop="20dp"
-                android:layout_marginBottom="10dp"
+                android:layout_marginBottom="20dp"
                 android:gravity="center">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Don't have an account? "/>
+                    android:text="Don't have an account? "
+                    android:textSize="16sp"/>
 
                 <TextView
                     android:id="@+id/signUp"
@@ -86,7 +87,8 @@
                     android:layout_height="wrap_content"
                     android:textColor="#ffffff"
                     android:clickable="true"
-                    android:text="Sign Up"/>
+                    android:text="Sign Up"
+                    android:textSize="16sp"/>
 
             </LinearLayout>
 
