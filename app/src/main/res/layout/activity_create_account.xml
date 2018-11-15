@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greenbackground1"
+    tools:context=".CreateAccount">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/gradient3">
+
+        <LinearLayout
+            android:layout_margin="20dp"
+            android:paddingBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Poor No More"
+                android:textSize="40sp"
+                android:textColor="#ffffff"
+                android:layout_marginTop="50dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Account"
+                android:textSize="25sp"
+                android:layout_marginTop="70dp"/>
+
+        <!-- Name -->
+        <LinearLayout
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/signin_roundedcorners"
+            >
+
+
+            <EditText
+                android:layout_marginLeft="10dp"
+                android:textSize="23sp"
+                android:inputType="numberDecimal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:drawablePadding="15dp"
+                android:drawableLeft="@drawable/usericon"
+                android:background="@null"
+                android:hint="Name"
+                />
+
+        </LinearLayout>
+
+        <!-- Email Input -->
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/signin_roundedcorners"
+            >
+
+
+            <EditText
+                android:layout_marginLeft="10dp"
+                android:textSize="23sp"
+                android:inputType="numberDecimal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:drawablePadding="15dp"
+                android:drawableLeft="@drawable/emailicon"
+                android:background="@null"
+                android:hint="Email"
+                />
+
+        </LinearLayout>
+
+        <!-- Monthly Income -->
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/signin_roundedcorners"
+            >
+
+
+            <EditText
+                android:layout_marginLeft="10dp"
+                android:textSize="23sp"
+                android:inputType="numberDecimal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:drawablePadding="15dp"
+                android:drawableLeft="@drawable/dollar"
+                android:background="@null"
+                android:hint="Monthly Income"
+                />
+
+        </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Create Account"
+                android:textColor="#ffffff"
+                android:background="@drawable/signin_button_roundedcorners"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"/>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
